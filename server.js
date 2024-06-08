@@ -78,6 +78,7 @@ app.get('/api/transactions/:id', [
     } catch (err) {
         res.status(500).json({ error: err.message });
     }
+   
 });
 
 // Starting the server on port 3000
